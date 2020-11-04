@@ -12,7 +12,8 @@ public class Main {
     
     public static void main(String[] args) {
         
-        int data[] = {1,2,3,1,5,6,4,8,9,10,8,12,8,44,9};
+        //Integer data[] = {1,2,3,1,5,6,4,8,9,10,8,12,8,44,9};
+        String data[] = {"Hola","que","tal","Hola","bien","y","tal"};
 
         Histogram histo = new Histogram(data);
                 
