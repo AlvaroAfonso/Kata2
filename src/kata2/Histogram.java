@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class Histogram {
 
-    int data[];
+    private final int data[];
 
     public Histogram(int data[]) {
         this.data = data;
@@ -17,10 +17,6 @@ public class Histogram {
 
     public int[] getData() {
         return data;
-    }
-
-    public void setData(int[] data) {
-        this.data = data;
     }
 
     public Map<Integer,Integer> getHistogram(){
